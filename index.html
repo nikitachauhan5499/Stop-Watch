@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <title>Stop Watch</title>
 </head>
-<body>
-    
+<body style = "font-family: 'Yusei Magic', sans-serif; text-align: center; font-size: 38px; background-color: coral;">
+    <h1 style = "background-color: grey; color: white;">STOPWATCH</h1>
+    <p style = "font-size: 100px;">
+        <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+        <div id="buttons">
+            <button id="start" style="padding: 14px; font-size: 16px; border-width: 5px; border-color: cadetblue; background-color: aquamarine;">START</button>
+            <button id="stop" style="padding: 14px; font-size: 16px; border-width: 5px; border-color: cadetblue; background-color: aquamarine;">STOP</button>
+            <button id="reset" style="padding: 14px; font-size: 16px; border-width: 5px; border-color: cadetblue; background-color: aquamarine;">RESET</button>
+        </div>
+    </p>
 </body>
+<script src = "JS/app.js"></script>
 </html>
